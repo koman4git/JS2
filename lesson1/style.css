@@ -16,3 +16,15 @@ body{
 .mrg-rgt{
     margin-right: 50px;
 }
+.btn-cart{
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.btn-cart:hover{
+    background-color: yellow;
+    
+}
+.btn-cart:active{
+    background-color: snow;
+}
