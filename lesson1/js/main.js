@@ -13,7 +13,7 @@ const renderProduct = (title, price) => {
             </div>`
 };
 const renderPage = list => {
-    const productsList = list.map(item => renderProduct(item.title, item.price));
+    const productsList = list.map(item => renderProduct(item.title, item.price)).join('');
     console.log(productsList);
     document.querySelector('.products').innerHTML = productsList;
 };
