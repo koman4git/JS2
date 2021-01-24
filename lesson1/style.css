@@ -28,3 +28,15 @@ body{
 .btn-cart:active{
     background-color: snow;
 }
+.buy-btn{
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.buy-btn:hover{
+    background-color: yellow;
+    
+}
+.buy-btn:active{
+    background-color: snow;
+}
