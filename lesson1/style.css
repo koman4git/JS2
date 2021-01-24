@@ -1,0 +1,18 @@
+body{
+    width: 1920px;
+    margin: auto;
+}
+.header-menu{
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-menu:hover{
+    color: red;
+    text-decoration: underline;
+}
+.header-menu:active{
+    color: green;
+}
+.mrg-rgt{
+    margin-right: 50px;
+}
