@@ -1,6 +1,5 @@
 body{
-    width: 1920px;
-    margin: auto;
+    margin: 0;
 }
 .header-menu{
     text-decoration: none;
@@ -27,6 +26,7 @@ body{
 }
 .btn-cart:active{
     background-color: snow;
+    bo
 }
 .buy-btn{
     background-color: orange;
