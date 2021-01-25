@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.header-menu{
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-menu:hover{
+    color: red;
+    text-decoration: underline;
+}
+.header-menu:active{
+    color: green;
+}
+.mrg-rgt{
+    margin-right: 50px;
+}
+.btn-cart{
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.btn-cart:hover{
+    background-color: yellow;
+    
+}
+.btn-cart:active{
+    background-color: snow;
+    bo
+}
+.buy-btn{
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.buy-btn:hover{
+    background-color: yellow;
+    
+}
+.buy-btn:active{
+    background-color: snow;
+}
