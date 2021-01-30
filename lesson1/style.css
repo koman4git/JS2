@@ -1,5 +1,13 @@
 body{
     margin: 0;
+    padding: 50px 50px 0 50px;
+}
+header{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .header-menu{
     text-decoration: none;
@@ -12,25 +20,26 @@ body{
 .header-menu:active{
     color: green;
 }
-.mrg-rgt{
-    margin-right: 50px;
-}
 .btn-cart{
-    background-color: orange;
+/*    background-color: green;*/
     border-radius: 20px;
     font-size: 16px;
+    border: 1px solid transparent;
+/*    background: white;*/
 }
 .btn-cart:hover{
     background-color: yellow;
-    
+    border: 1px solid transparent;
 }
 .btn-cart:active{
     background-color: snow;
+    border: 1px solid transparent;
 }
 .buy-btn{
     background-color: orange;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 16px;
+    border: 1px solid transparent;
 }
 .buy-btn:hover{
     background-color: yellow;
@@ -38,4 +47,18 @@ body{
 }
 .buy-btn:active{
     background-color: snow;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product-item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+    text-align: center;
 }
