@@ -12,7 +12,7 @@
         <div class="cart">
             <form action="#" class="search-form" @submit.prevent="filter">
                 <input type="text" class="search-field" v-model="userSearch">
-                <button class="btn-search">
+                <button type="submit" class="btn-search">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
@@ -41,15 +41,15 @@
             <div class="product-item" v-for="product of filtered" :key="product.id_product">
                 <img :src="imgProduct" alt="Some img">
                 <div class="desc">
-                    <h3>{{ product.prodict_name }}</h3>
+                    <h3>{{ product.product_name }}</h3>
                     <p>{{product.price}}</p>
                     <button class="buy-btn" @click="addProduct(product)">Купить</button>
                 </div>
             </div>
         </div>
     </main>
-     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="js/main.js"></script>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
